@@ -3680,14 +3680,14 @@
 	}
 
 		#banner .more {
-			-moz-transition: height 0.2s ease;
-			-webkit-transition: height 0.2s ease;
-			-ms-transition: height 0.2s ease;
-			transition: height 0.2s ease;
-			-moz-animation: more 0.75s ease-out 3s forwards;
-			-webkit-animation: more 0.75s ease-out 3s forwards;
-			-ms-animation: more 0.75s ease-out 3s forwards;
-			animation: more 0.75s ease-out 3s forwards;
+			-moz-transition: height 0.0s ease;
+			-webkit-transition: height 0.0s ease;
+			-ms-transition: height 0.0s ease;
+			transition: height 0.0s ease;
+			-moz-animation: more 0.0s ease-out 0s forwards;
+			-webkit-animation: more 0.0s ease-out 0s forwards;
+			-ms-animation: more 0.0s ease-out 0s forwards;
+			animation: more 0.0s ease-out 0s forwards;
 			background-color: rgba(255, 255, 255, 0.15);
 			border: 0;
 			border-radius: 1em 1em 0 0;
@@ -4060,14 +4060,14 @@
 			}
 
 			.post .more.current {
-				-moz-transition: height 0.2s ease;
-				-webkit-transition: height 0.2s ease;
-				-ms-transition: height 0.2s ease;
-				transition: height 0.2s ease;
-				-moz-animation: more 0.75s ease-out 2s forwards;
-				-webkit-animation: more 0.75s ease-out 2s forwards;
-				-ms-animation: more 0.75s ease-out 2s forwards;
-				animation: more 0.75s ease-out 2s forwards;
+				-moz-transition: height 0.0s ease;
+				-webkit-transition: height 0.0s ease;
+				-ms-transition: height 0.0s ease;
+				transition: height 0.0s ease;
+				-moz-animation: more 0.0s ease-out 0s forwards;
+				-webkit-animation: more 0.0s ease-out 0s forwards;
+				-ms-animation: more 0.0s ease-out 0s forwards;
+				animation: more 0.0s ease-out 0s forwards;
 			}
 
 			.post .more:hover {
