@@ -2,7 +2,7 @@
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/Tent.png?raw=true",
     "title": "Tent",
-    "technology": "iOS, Swift, JavaScript, MapKit, Firebase, Google Cloud Functions",
+    "technology": "Swift, JavaScript, MapKit, Firebase, Google Photos, Google Cloud Functions, iOS",
     "desc": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "40%"
@@ -10,7 +10,7 @@
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/StockMarketSImulator.png?raw=true",
     "title": "Stock Market Simulator",
-    "technology": "iOS, Swift, JavaScript, MapKit, Firebase, Google Cloud Functions",
+    "technology": "React, Redux, TypeScript, Node.js, Firebase",
     "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "20%"
@@ -18,7 +18,7 @@
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/PolyDrive.png?raw=true",
     "title": "Polydrive.io",
-    "technology": "iOS, Swift, JavaScript, MapKit, Firebase, Google Cloud Functions",
+    "technology": "JavaScript, Node.js, Pixi.js, Primus, Express",
     "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "40%"
@@ -26,7 +26,7 @@
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/DigitDrop.png?raw=true",
     "title": "Digit Drop",
-    "technology": "iOS, Swift, JavaScript, MapKit, Firebase, Google Cloud Functions",
+    "technology": "Unity2D, C#, GameKit, AdMob, iOS, Android",
     "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "38%"
@@ -34,7 +34,7 @@
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/TimeFlux.png?raw=true",
     "title": "Time Flux",
-    "technology": "iOS, Swift, JavaScript, MapKit, Firebase, Google Cloud Functions",
+    "technology": "Unity2D, C#, AdMob, iOS, Android",
     "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "38%"
@@ -42,7 +42,7 @@
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/TwoArrows.png?raw=true",
     "title": "Two Arrows",
-    "technology": "iOS, Swift, JavaScript, MapKit, Firebase, Google Cloud Functions",
+    "technology": "Objective-C, Cocoas-2D, AdMob, iOS",
     "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "24%"
@@ -50,7 +50,7 @@
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/PerimeterTheGame.png?raw=true",
     "title": "Perimeter The Game",
-    "technology": "iOS, Swift, JavaScript, MapKit, Firebase, Google Cloud Functions",
+    "technology": "Objective-C, SpriteKit, AdMob, iOS",
     "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "40%"
@@ -58,7 +58,7 @@
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/LAVARIVER.png?raw=true",
     "title": "Lava River",
-    "technology": "iOS, Swift, JavaScript, MapKit, Firebase, Google Cloud Functions",
+    "technology": "Objective-C, SpriteKit, AdMob, iOS",
     "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "20%"
@@ -66,7 +66,7 @@
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/FeedTheBear.png?raw=true",
     "title": "Feed The Bear",
-    "technology": "iOS, Swift, JavaScript, MapKit, Firebase, Google Cloud Functions",
+    "technology": "Objective-C, SpriteKit, AdMob, iOS",
     "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "40%"
