@@ -1,12 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import clsx from "clsx";
 import { withStyles } from "@material-ui/core/styles";
 import Link from "@material-ui/core/Link";
 import MuiAppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 
-const toolbarStyles = (theme: any) => ({
+const toolbarStyles = (theme) => ({
   root: {
     height: 64,
     [theme.breakpoints.up("sm")]: {
@@ -15,7 +14,7 @@ const toolbarStyles = (theme: any) => ({
   },
 });
 
-const styles = (theme: any) => ({
+const styles = (theme) => ({
   title: {
     fontSize: 24,
     lineHeight: 1.6,
@@ -47,7 +46,7 @@ const styles = (theme: any) => ({
   },
 });
 
-function AppBar(props: any) {
+function AppBar(props) {
   const { classes } = props;
 
   return (

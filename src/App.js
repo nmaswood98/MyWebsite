@@ -6,7 +6,6 @@ import purple from "@material-ui/core/colors/purple";
 import green from "@material-ui/core/colors/green";
 
 import allProjects from "./projects.json";
-import Project from "./models/Project";
 
 import "./App.css";
 
@@ -32,14 +31,10 @@ const theme = createMuiTheme({
   },
 });
 
-let projects: [Project] = allProjects as [Project];
+let projects = allProjects;
 
 function App() {
-  return (
-    <ThemeProvider theme={theme}>
-      <ProjectList projects={projects} />
-    </ThemeProvider>
-  );
+  return <ProjectList projects={projects} />;
 }
 
 export default App;

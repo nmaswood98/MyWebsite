@@ -1,11 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Container from "@material-ui/core/Container";
 import Typography from "./typography";
+import ProjectModal from "./ProjectModal";
 
-const styles = (theme: any) => ({
+const styles = (theme) => ({
   root: {
     marginTop: theme.spacing(8),
     marginBottom: theme.spacing(4),
@@ -13,16 +13,16 @@ const styles = (theme: any) => ({
   images: {
     marginTop: theme.spacing(8),
     display: "flex",
-    flexWrap: "wrap" as any,
+    flexWrap: "wrap",
   },
   imageWrapper: {
-    position: "relative" as any,
-    display: "block" as any,
+    position: "relative",
+    display: "block",
     padding: 0,
     borderRadius: 0,
-    height: "40vh" as any,
+    height: "40vh",
     [theme.breakpoints.down("sm")]: {
-      width: "100% !important" as any,
+      width: "100% !important",
       height: 100,
     },
     "&:hover": {
@@ -35,31 +35,31 @@ const styles = (theme: any) => ({
       opacity: 0,
     },
     "&:hover $imageTitle": {
-      border: "4px solid currentColor" as any,
+      border: "4px solid currentColor",
     },
   },
   imageButton: {
-    position: "absolute" as any,
+    position: "absolute",
     left: 0,
     right: 0,
     top: 0,
     bottom: 0,
-    display: "flex" as any,
-    alignItems: "center" as any,
-    justifyContent: "center" as any,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
     color: theme.palette.common.white,
   },
   imageSrc: {
-    position: "absolute" as any,
+    position: "absolute",
     left: 0,
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundSize: "cover" as any,
-    backgroundPosition: "center 40%" as any,
+    backgroundSize: "cover",
+    backgroundPosition: "center 40%",
   },
   imageBackdrop: {
-    position: "absolute" as any,
+    position: "absolute",
     left: 0,
     right: 0,
     top: 0,
@@ -69,37 +69,55 @@ const styles = (theme: any) => ({
     transition: theme.transitions.create("opacity"),
   },
   imageTitle: {
-    position: "relative" as any,
+    position: "relative",
     padding: `${theme.spacing(2)}px ${theme.spacing(4)}px 14px`,
   },
   imageMarked: {
     height: 3,
     width: 18,
     background: theme.palette.common.white,
-    position: "absolute" as any,
+    position: "absolute",
     bottom: -2,
-    left: "calc(50% - 9px)" as any,
+    left: "calc(50% - 9px)",
     transition: theme.transitions.create("opacity"),
   },
 });
 
-function ProjectList(props: any) {
+function ProjectList(props) {
   const { classes } = props;
-
   const images = props.projects;
 
+  const [open, setOpen] = React.useState(false);
+  const [selectedProject, setSelectedProject] = React.useState();
+  const handleOpen = (image) => {
+    setSelectedProject(image);
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
-    <Container className={classes.root} component="section">
+    <Container className={classes.root} style={{ width: "100%" }}>
       <Typography variant="h4" marked="center" align="center" component="h2">
         Nabhan Maswood
       </Typography>
+      <ProjectModal
+        handleClose={handleClose}
+        open={open}
+        project={selectedProject}
+      ></ProjectModal>
       <div className={classes.images}>
-        {images.map((image: any) => (
+        {images.map((image) => (
           <ButtonBase
             key={image.title}
             className={classes.imageWrapper}
             style={{
               width: image.width,
+            }}
+            onClick={() => {
+              handleOpen(image);
             }}
           >
             <div
