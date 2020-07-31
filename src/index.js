@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import { createBrowserHistory } from "history";
+
 import App from "./App";
+var hist = createBrowserHistory();
 
 ReactDOM.render(
   <React.StrictMode>

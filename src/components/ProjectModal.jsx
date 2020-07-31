@@ -4,6 +4,8 @@ import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
 
+import styles from "../assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
+
 const useStyles = makeStyles((theme) =>
   createStyles({
     modal: {
@@ -27,8 +29,11 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
+const useStyles2 = makeStyles(styles);
+
 export default function ProjectModal(props) {
   const classes = useStyles();
+  const materialKitClasses = useStyles2();
 
   return (
     <div>
@@ -47,7 +52,9 @@ export default function ProjectModal(props) {
         <Fade in={props.open}>
           <div className={classes.paper} id="MODALCONTENT">
             <div>
-              <h2 id="transition-modal-title">{props?.project?.title}</h2>
+              <h1 className={materialKitClasses.title}>
+                {props?.project?.title}
+              </h1>
               <p id="transition-modal-description">
                 Description of the project
               </p>

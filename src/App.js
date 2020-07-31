@@ -7,8 +7,6 @@ import green from "@material-ui/core/colors/green";
 
 import allProjects from "./projects.json";
 
-import "./App.css";
-
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -34,7 +32,11 @@ const theme = createMuiTheme({
 let projects = allProjects;
 
 function App() {
-  return <ProjectList projects={projects} />;
+  return (
+    <div id="hello" style={{ backgroundColor: "white" }}>
+      <ProjectList projects={projects} />
+    </div>
+  );
 }
 
 export default App;
