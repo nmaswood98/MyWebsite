@@ -3,7 +3,7 @@
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/Tent.png?raw=true",
     "title": "Tent",
     "technology": "Swift, JavaScript, MapKit, Firebase, Google Photos, Google Cloud Functions, iOS",
-    "desc": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    "description": "Mobile Application that allows capturing of drawings and pictures with people near you",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "40%"
   },
@@ -11,7 +11,7 @@
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/StockMarketSImulator.png?raw=true",
     "title": "Stock Market Simulator",
     "technology": "React, Redux, TypeScript, Node.js, Firebase",
-    "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    "description": "Website that creates sessions of a stock market environment where users can trade stocks and view the market influenced by other users and artificial trade orders",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "20%"
   },
@@ -19,7 +19,7 @@
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/PolyDrive.png?raw=true",
     "title": "Polydrive.io",
     "technology": "JavaScript, Node.js, Pixi.js, Primus, Express",
-    "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    "description": "HTML5 multiplayer game that takes advantage of WebSockets to provide real-time gameplay between many clients ",
     "buttons": [{ "title": "Github", "url": "google.com" }],
     "width": "40%"
   },
