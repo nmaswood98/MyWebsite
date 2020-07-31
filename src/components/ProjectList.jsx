@@ -1,9 +1,11 @@
 import React from "react";
-import { withStyles } from "@material-ui/core/styles";
+import { makeStyles, withStyles } from "@material-ui/core/styles";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Container from "@material-ui/core/Container";
 import Typography from "./typography";
 import ProjectModal from "./ProjectModal";
+
+import matStyles from "../assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
 
 const styles = (theme) => ({
   root: {
@@ -71,6 +73,7 @@ const styles = (theme) => ({
   imageTitle: {
     position: "relative",
     padding: `${theme.spacing(2)}px ${theme.spacing(4)}px 14px`,
+    fontFamily: `"Roboto Slab", "Times New Roman", serif`,
   },
   imageMarked: {
     height: 3,
@@ -83,10 +86,12 @@ const styles = (theme) => ({
   },
 });
 
+const useStyles2 = makeStyles(matStyles);
+
 function ProjectList(props) {
   const { classes } = props;
   const images = props.projects;
-
+  const materialKitClasses = useStyles2();
   const [open, setOpen] = React.useState(false);
   const [selectedProject, setSelectedProject] = React.useState();
   const handleOpen = (image) => {
@@ -100,7 +105,13 @@ function ProjectList(props) {
 
   return (
     <Container className={classes.root} style={{ width: "100%" }}>
-      <Typography variant="h4" marked="center" align="center" component="h2">
+      <Typography
+        variant="h4"
+        marked="center"
+        align="center"
+        component="h2"
+        className={materialKitClasses.title}
+      >
         Nabhan Maswood
       </Typography>
       <ProjectModal

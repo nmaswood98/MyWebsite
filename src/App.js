@@ -6,6 +6,9 @@ import purple from "@material-ui/core/colors/purple";
 import green from "@material-ui/core/colors/green";
 
 import allProjects from "./projects.json";
+import SectionCarousel from "views/Components/Sections/SectionCarousel";
+
+import "assets/scss/material-kit-react.scss?v=1.9.0";
 
 const theme = createMuiTheme({
   palette: {

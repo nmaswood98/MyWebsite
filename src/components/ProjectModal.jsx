@@ -3,11 +3,22 @@ import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
+import GridItem from "components/Grid/GridItem.js";
 
 import styles from "../assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
+import ImageCarousel from "./ImageCarousel.jsx";
+import Badge from "./Badge/Badge.js";
+import Button from "components/CustomButtons/Button.js";
+import TechBadges from "./TechBadges.jsx";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
+    center: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+    },
     modal: {
       display: "flex",
       alignItems: "center",
@@ -21,7 +32,7 @@ const useStyles = makeStyles((theme) =>
       boxShadow: theme.shadows[5],
       padding: theme.spacing(2, 4, 3),
       width: "50%",
-      height: "50%",
+      height: "80%",
       justifyContent: "center",
       alignContent: "center",
       textAlign: "center",
@@ -51,19 +62,40 @@ export default function ProjectModal(props) {
       >
         <Fade in={props.open}>
           <div className={classes.paper} id="MODALCONTENT">
-            <div>
-              <h1 className={materialKitClasses.title}>
-                {props?.project?.title}
-              </h1>
-              <p id="transition-modal-description">
-                Description of the project
-              </p>
-              <p id="transition-modal-description">
-                Link to Github if provided
-              </p>
-              <p id="transition-modal-description">
-                Link to Github if provided
-              </p>
+            <div className={classes.center}>
+              <GridItem xs={12} sm={12} md={8}>
+                <h2
+                  className={materialKitClasses.title}
+                  style={{ marginBottom: 10, marginTop: 20 }}
+                >
+                  {props?.project?.title}
+                </h2>
+              </GridItem>
+
+              <GridItem xs={12} sm={12} md={6} style={{ marginBottom: 20 }}>
+                <TechBadges
+                  technology={
+                    props.project == null ? "" : props.project.technology
+                  }
+                />
+              </GridItem>
+              <GridItem xs={12} sm={12} md={8} style={{ marginBottom: 20 }}>
+                <h4 id="transition-modal-description">
+                  {props?.project?.description}
+                </h4>
+              </GridItem>
+
+              <ImageCarousel />
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  marginTop: 30,
+                }}
+              >
+                <Button color="info">View Project</Button>
+                <Button color="success">GitHub</Button>
+              </div>
             </div>
           </div>
         </Fade>
