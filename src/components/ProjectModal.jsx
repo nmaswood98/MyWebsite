@@ -10,6 +10,7 @@ import ImageCarousel from "./ImageCarousel.jsx";
 import Badge from "./Badge/Badge.js";
 import Button from "components/CustomButtons/Button.js";
 import TechBadges from "./TechBadges.jsx";
+import ProjectContent from "./ProjectContent.jsx";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -60,45 +61,7 @@ export default function ProjectModal(props) {
           timeout: 500,
         }}
       >
-        <Fade in={props.open}>
-          <div className={classes.paper} id="MODALCONTENT">
-            <div className={classes.center}>
-              <GridItem xs={12} sm={12} md={8}>
-                <h2
-                  className={materialKitClasses.title}
-                  style={{ marginBottom: 10, marginTop: 20 }}
-                >
-                  {props?.project?.title}
-                </h2>
-              </GridItem>
-
-              <GridItem xs={12} sm={12} md={6} style={{ marginBottom: 20 }}>
-                <TechBadges
-                  technology={
-                    props.project == null ? "" : props.project.technology
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={12} md={8} style={{ marginBottom: 20 }}>
-                <h4 id="transition-modal-description">
-                  {props?.project?.description}
-                </h4>
-              </GridItem>
-
-              <ImageCarousel />
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  marginTop: 30,
-                }}
-              >
-                <Button color="info">View Project</Button>
-                <Button color="success">GitHub</Button>
-              </div>
-            </div>
-          </div>
-        </Fade>
+        <ProjectContent project={props.project} open={props.open} />
       </Modal>
     </div>
   );
