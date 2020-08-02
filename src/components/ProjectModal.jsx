@@ -61,7 +61,11 @@ export default function ProjectModal(props) {
           timeout: 500,
         }}
       >
-        <ProjectContent project={props.project} open={props.open} />
+        <ProjectContent
+          project={props.project}
+          open={props.open}
+          handleClose={props.handleClose}
+        />
       </Modal>
     </div>
   );

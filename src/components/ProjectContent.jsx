@@ -9,6 +9,9 @@ import Badge from "./Badge/Badge.js";
 import Button from "components/CustomButtons/Button.js";
 import TechBadges from "./TechBadges.jsx";
 import Fade from "@material-ui/core/Fade";
+import { Grid } from "@material-ui/core";
+import IconButton from "@material-ui/core/IconButton";
+import CloseIcon from "@material-ui/icons/Close";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -25,8 +28,6 @@ const useStyles = makeStyles((theme) =>
       border: "2px solid #000",
       boxShadow: theme.shadows[5],
       padding: theme.spacing(2, 4, 3),
-      width: "50%",
-      height: "80%",
       justifyContent: "center",
       alignContent: "center",
       textAlign: "center",
@@ -41,23 +42,35 @@ export default function ProjectContent(props) {
   const materialKitClasses = useStyles2();
   return (
     <Fade in={props.open}>
-      <div className={classes.paper} id="MODALCONTENT">
-        <div className={classes.center}>
+      <Grid container md={6} sm={12} className={classes.paper}>
+        <div
+          id="ICON"
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            width: "100%",
+          }}
+        >
+          <CloseIcon style={{ visibility: "hidden" }} />
           <GridItem xs={12} sm={12} md={8}>
-            <h2
-              className={materialKitClasses.title}
-              style={{ marginBottom: 10, marginTop: 20 }}
-            >
+            <h2 className={materialKitClasses.title}>
               {props?.project?.title}
             </h2>
           </GridItem>
 
-          <GridItem xs={12} sm={12} md={6} style={{ marginBottom: 20 }}>
+          <CloseIcon
+            onClick={() => {
+              props.handleClose();
+            }}
+          />
+        </div>
+        <GridItem className={classes.center}>
+          <GridItem xs={12} sm={12} md={6}>
             <TechBadges
               technology={props.project == null ? "" : props.project.technology}
             />
           </GridItem>
-          <GridItem xs={12} sm={12} md={8} style={{ marginBottom: 20 }}>
+          <GridItem xs={12} sm={12} md={8}>
             <h4 id="transition-modal-description">
               {props?.project?.description}
             </h4>
@@ -68,14 +81,13 @@ export default function ProjectContent(props) {
             style={{
               display: "flex",
               flexDirection: "column",
-              marginTop: 30,
             }}
           >
             <Button color="info">View Project</Button>
             <Button color="success">GitHub</Button>
           </div>
-        </div>
-      </div>
+        </GridItem>
+      </Grid>
     </Fade>
   );
 }
