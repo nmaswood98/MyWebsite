@@ -1,5 +1,6 @@
 [
   {
+    "type": "personal",
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/Tent.png?raw=true",
     "title": "Tent",
     "technology": "Swift, JavaScript, MapKit, Firebase, Google Photos, Google Cloud Functions, iOS",
@@ -11,6 +12,7 @@
     "width": "40%"
   },
   {
+    "type": "school",
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/StockMarketSImulator.png?raw=true",
     "title": "Stock Market Simulator",
     "technology": "React, Redux, TypeScript, Node.js, Firebase",
@@ -26,6 +28,7 @@
     "width": "20%"
   },
   {
+    "type": "personal",
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/PolyDrive.png?raw=true",
     "title": "Polydrive.io",
     "technology": "JavaScript, Node.js, Pixi.js, Primus, Express",
@@ -46,6 +49,7 @@
     "width": "40%"
   },
   {
+    "type": "personal",
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/DigitDrop.png?raw=true",
     "title": "Digit Drop",
     "technology": "Unity2D, C#, GameKit, AdMob, iOS, Android",
@@ -66,6 +70,7 @@
     "width": "38%"
   },
   {
+    "type": "personal",
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/TimeFlux.png?raw=true",
     "title": "Time Flux",
     "technology": "Unity2D, C#, AdMob, iOS, Android",
@@ -86,6 +91,7 @@
     "width": "38%"
   },
   {
+    "type": "personal",
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/TwoArrows.png?raw=true",
     "title": "Two Arrows",
     "technology": "Objective-C, Cocoas-2D, AdMob, iOS",
@@ -101,6 +107,7 @@
     "width": "24%"
   },
   {
+    "type": "personal",
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/PerimeterTheGame.png?raw=true",
     "title": "Perimeter The Game",
     "technology": "Objective-C, SpriteKit, AdMob, iOS",
@@ -116,6 +123,7 @@
     "width": "40%"
   },
   {
+    "type": "personal",
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/LAVARIVER.png?raw=true",
     "title": "Lava River",
     "technology": "Objective-C, SpriteKit, AdMob, iOS",
@@ -131,6 +139,7 @@
     "width": "20%"
   },
   {
+    "type": "personal",
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/FeedTheBear.png?raw=true",
     "title": "Feed The Bear",
     "technology": "Objective-C, SpriteKit, AdMob, iOS",

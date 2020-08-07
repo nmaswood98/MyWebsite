@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Container from "@material-ui/core/Container";
@@ -6,6 +6,7 @@ import Typography from "./typography";
 import ProjectModal from "./ProjectModal";
 
 import matStyles from "../assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
+import { Tabs, Tab } from "@material-ui/core";
 
 const styles = (theme) => ({
   root: {
@@ -90,7 +91,7 @@ const useStyles2 = makeStyles(matStyles);
 
 function ProjectList(props) {
   const { classes } = props;
-  const images = props.projects;
+  let [images, setImages] = React.useState([]);
   const materialKitClasses = useStyles2();
   const [open, setOpen] = React.useState(false);
   const [selectedProject, setSelectedProject] = React.useState();
@@ -102,6 +103,24 @@ function ProjectList(props) {
   const handleClose = () => {
     setOpen(false);
   };
+
+  const [projectTypeIndex, setProjectTypeIndex] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setProjectTypeIndex(newValue);
+  };
+
+  useEffect(() => {
+    if (projectTypeIndex === 0) {
+      setImages(props.projects);
+    } else if (projectTypeIndex === 1) {
+      setImages(
+        props.projects.filter((project) => project.type === "personal")
+      );
+    } else {
+      setImages(props.projects.filter((project) => project.type === "school"));
+    }
+  }, [projectTypeIndex]);
 
   return (
     <Container className={classes.root} style={{ width: "100%" }}>
@@ -119,7 +138,19 @@ function ProjectList(props) {
         open={open}
         project={selectedProject}
       ></ProjectModal>
-      <div className={classes.images}>
+      <Tabs
+        value={projectTypeIndex}
+        indicatorColor="primary"
+        textColor="primary"
+        onChange={handleChange}
+        aria-label="disabled tabs example"
+        centered
+      >
+        <Tab label="All" />
+        <Tab label="Personal" />
+        <Tab label="School" />
+      </Tabs>
+      <div className={classes.images} style={{ margin: 0 }}>
         {images.map((image) => (
           <ButtonBase
             key={image.title}
