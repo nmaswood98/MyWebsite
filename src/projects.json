@@ -8,8 +8,7 @@
     "description2": "Front-End uses SwiftUI for the application, backend uses Google Firebase and Cloud Functions for user authentication, location verification, database, and data storage",
     "buttons": [
       { "title": "Github", "url": "https://google.com", "color": "info" }
-    ],
-    "width": "40%"
+    ]
   },
   {
     "type": "school",
@@ -24,8 +23,7 @@
         "url": "https://github.com/StockMarketSimulator-CSC-59867-03/SMSimulator_Website",
         "color": "info"
       }
-    ],
-    "width": "20%"
+    ]
   },
   {
     "type": "personal",
@@ -45,8 +43,7 @@
         "url": "http://polydrive.io",
         "color": "primary"
       }
-    ],
-    "width": "40%"
+    ]
   },
   {
     "type": "personal",
@@ -66,8 +63,7 @@
         "url": "https://play.google.com/store/apps/details?id=com.nabhanmaswood.digitdrop&hl=en_US",
         "color": "info"
       }
-    ],
-    "width": "38%"
+    ]
   },
   {
     "type": "personal",
@@ -87,8 +83,7 @@
         "url": "https://play.google.com/store/apps/details?id=com.nabhanmaswood.TimeFlux&hl=en_US",
         "color": "info"
       }
-    ],
-    "width": "38%"
+    ]
   },
   {
     "type": "personal",
@@ -103,8 +98,7 @@
         "url": "https://github.com/nmaswood98/Two-Arrows",
         "color": "info"
       }
-    ],
-    "width": "24%"
+    ]
   },
   {
     "type": "personal",
@@ -119,8 +113,7 @@
         "url": "https://apps.apple.com/us/app/perimeter-the-game/id933594928",
         "color": "info"
       }
-    ],
-    "width": "40%"
+    ]
   },
   {
     "type": "personal",
@@ -135,8 +128,7 @@
         "url": "https://apps.apple.com/us/app/lava-river/id872833976",
         "color": "info"
       }
-    ],
-    "width": "20%"
+    ]
   },
   {
     "type": "personal",
@@ -151,7 +143,6 @@
         "url": "https://github.com/nmaswood98/Feed-The-Bear",
         "color": "info"
       }
-    ],
-    "width": "40%"
+    ]
   }
 ]

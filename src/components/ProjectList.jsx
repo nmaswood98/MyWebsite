@@ -89,6 +89,18 @@ const styles = (theme) => ({
 
 const useStyles2 = makeStyles(matStyles);
 
+const ProjectSizes = [
+  "40%",
+  "20%",
+  "40%",
+  "38%",
+  "38%",
+  "24%",
+  "40%",
+  "20%",
+  "40%",
+];
+
 function ProjectList(props) {
   const { classes } = props;
   let [images, setImages] = React.useState([]);
@@ -121,7 +133,7 @@ function ProjectList(props) {
       setImages(props.projects.filter((project) => project.type === "school"));
     }
   }, [projectTypeIndex]);
-
+  let count = -1;
   return (
     <Container className={classes.root} style={{ width: "100%" }}>
       <Typography
@@ -151,37 +163,40 @@ function ProjectList(props) {
         <Tab label="School" />
       </Tabs>
       <div className={classes.images} style={{ margin: 0 }}>
-        {images.map((image) => (
-          <ButtonBase
-            key={image.title}
-            className={classes.imageWrapper}
-            style={{
-              width: image.width,
-            }}
-            onClick={() => {
-              handleOpen(image);
-            }}
-          >
-            <div
-              className={classes.imageSrc}
+        {images.map((image) => {
+          count++;
+          return (
+            <ButtonBase
+              key={image.title}
+              className={classes.imageWrapper}
               style={{
-                backgroundImage: `url(${image.image})`,
+                width: ProjectSizes[count],
               }}
-            />
-            <div className={classes.imageBackdrop} />
-            <div className={classes.imageButton}>
-              <Typography
-                component="h3"
-                variant="h6"
-                color="inherit"
-                className={classes.imageTitle}
-              >
-                {image.title}
-                <div className={classes.imageMarked} />
-              </Typography>
-            </div>
-          </ButtonBase>
-        ))}
+              onClick={() => {
+                handleOpen(image);
+              }}
+            >
+              <div
+                className={classes.imageSrc}
+                style={{
+                  backgroundImage: `url(${image.image})`,
+                }}
+              />
+              <div className={classes.imageBackdrop} />
+              <div className={classes.imageButton}>
+                <Typography
+                  component="h3"
+                  variant="h6"
+                  color="inherit"
+                  className={classes.imageTitle}
+                >
+                  {image.title}
+                  <div className={classes.imageMarked} />
+                </Typography>
+              </div>
+            </ButtonBase>
+          );
+        })}
       </div>
     </Container>
   );
