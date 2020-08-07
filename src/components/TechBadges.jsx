@@ -24,6 +24,12 @@ const techColorDictionary = {
   "Objective-C": "warning",
   SpriteKit: "danger",
   "Cocoas-2D": "danger",
+  "D3.js": "warning",
+  HTML: "danger",
+  CSS: "primary",
+  VHDL: "primary",
+  ModelSim: "info",
+  FPGA: "success",
 };
 
 function TechBadges(props) {

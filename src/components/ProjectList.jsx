@@ -99,6 +99,8 @@ const ProjectSizes = [
   "40%",
   "20%",
   "40%",
+  "40%",
+  "20%",
 ];
 
 function ProjectList(props) {

@@ -144,5 +144,40 @@
         "color": "info"
       }
     ]
+  },
+  {
+    "type": "school",
+    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/SINGLECYCLECPU.png?raw=true",
+    "title": "Single Cycle CPU",
+    "technology": "VHDL, ModelSim, FPGA",
+    "description": "Final Project for Computer Organization class ",
+    "description2": "Culmination of work done in this class to build a Single Cycle CPU written in VHDL and simulated in ModelSim.",
+    "buttons": [
+      {
+        "title": "Report",
+        "url": "https://docs.google.com/document/d/1MUviqyFwQEvBrgUFJOnBp6lTJAysvJqtYxpsL5IxBY4/edit?usp=sharing",
+        "color": "info"
+      }
+    ]
+  },
+  {
+    "type": "school",
+    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/RecycleNYC.jpg?raw=true",
+    "title": "Recycle NYC",
+    "technology": "JavaScript, D3.js, HTML, CSS",
+    "description": "A visualization project for a Data Visulization class to see relation between NYC recycling practices and its demography.",
+    "description2": "Group Project where I worked on creating the map visuzalization using d3.js and displaying the data on top of the geography.",
+    "buttons": [
+      {
+        "title": "Recycle NYC",
+        "url": "https://nmaswood98.github.io/RecycleNYC/",
+        "color": "info"
+      },
+      {
+        "title": "Github",
+        "url": "https://github.com/nmaswood98/RecycleNYC-2",
+        "color": "primary"
+      }
+    ]
   }
 ]
