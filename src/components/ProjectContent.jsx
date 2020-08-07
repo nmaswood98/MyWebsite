@@ -83,8 +83,16 @@ export default function ProjectContent(props) {
               flexDirection: "column",
             }}
           >
-            <Button color="info">View Project</Button>
-            <Button color="success">GitHub</Button>
+            {props?.project?.buttons.map((buttonInfo) => (
+              <Button
+                color={buttonInfo.color}
+                onClick={() => {
+                  window.open(buttonInfo.url);
+                }}
+              >
+                {buttonInfo.title}
+              </Button>
+            ))}
           </div>
         </GridItem>
       </Grid>
