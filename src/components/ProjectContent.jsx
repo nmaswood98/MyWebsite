@@ -42,7 +42,7 @@ export default function ProjectContent(props) {
   const materialKitClasses = useStyles2();
   return (
     <Fade in={props.open}>
-      <Grid container md={6} sm={12} className={classes.paper}>
+      <Grid container md={7} sm={12} className={classes.paper}>
         <div
           id="ICON"
           style={{
@@ -65,7 +65,7 @@ export default function ProjectContent(props) {
           />
         </div>
         <GridItem className={classes.center}>
-          <GridItem xs={12} sm={12} md={6}>
+          <GridItem xs={12} sm={12} md={6} style={{ marginBottom: 10 }}>
             <TechBadges
               technology={props.project == null ? "" : props.project.technology}
             />
@@ -77,10 +77,21 @@ export default function ProjectContent(props) {
           </GridItem>
 
           <ImageCarousel />
+          <GridItem
+            xs={12}
+            sm={12}
+            md={8}
+            style={{ marginTop: 20, marginBottom: 10 }}
+          >
+            <p id="transition-modal-description">
+              {`${props?.project?.description2}`}
+            </p>
+          </GridItem>
           <div
             style={{
               display: "flex",
               flexDirection: "column",
+              marginBottom: 30,
             }}
           >
             {props?.project?.buttons.map((buttonInfo) => (

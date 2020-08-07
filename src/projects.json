@@ -3,7 +3,8 @@
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/Tent.png?raw=true",
     "title": "Tent",
     "technology": "Swift, JavaScript, MapKit, Firebase, Google Photos, Google Cloud Functions, iOS",
-    "description": "Mobile Application that allows capturing of drawings and pictures with people near you",
+    "description": "Mobile Application where you capture and share images and drawings with people near you",
+    "description2": "Front-End uses SwiftUI for the application, backend uses Google Firebase and Cloud Functions for user authentication, location verification, database, and data storage",
     "buttons": [
       { "title": "Github", "url": "https://google.com", "color": "info" }
     ],
@@ -13,8 +14,15 @@
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/StockMarketSImulator.png?raw=true",
     "title": "Stock Market Simulator",
     "technology": "React, Redux, TypeScript, Node.js, Firebase",
-    "description": "Website that creates sessions of a stock market environment where users can trade stocks and view the market influenced by other users and artificial trade orders",
-    "buttons": [{ "title": "Github", "url": "google.com", "color": "info" }],
+    "description": "Website that creates sessions of a stock market environment where users can trade stocks",
+    "description2": "Group Project where I worked on creating responsive user interfaces with react and material-ui with state management through redux, Developed system to create artificial trade orders to influence the market depending on trends.",
+    "buttons": [
+      {
+        "title": "Github",
+        "url": "https://github.com/StockMarketSimulator-CSC-59867-03/SMSimulator_Website",
+        "color": "info"
+      }
+    ],
     "width": "20%"
   },
   {
@@ -22,17 +30,38 @@
     "title": "Polydrive.io",
     "technology": "JavaScript, Node.js, Pixi.js, Primus, Express",
     "description": "HTML5 multiplayer game that takes advantage of WebSockets to provide real-time gameplay between many clients ",
-    "buttons": [{ "title": "Github", "url": "google.com", "color": "info" }],
+    "description2": "",
+    "buttons": [
+      {
+        "title": "Github",
+        "url": "https://github.com/nmaswood98/Polydrive.io",
+        "color": "info"
+      },
+      {
+        "title": "polydrive.io",
+        "url": "http://polydrive.io",
+        "color": "primary"
+      }
+    ],
     "width": "40%"
   },
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/DigitDrop.png?raw=true",
     "title": "Digit Drop",
     "technology": "Unity2D, C#, GameKit, AdMob, iOS, Android",
-    "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+    "description": "Mobile Game where players add numbers to match the given number at the top.",
+    "description2": "Built with Unity2D with C#, integrated with Apple's Game Center and Google Play Game Services to manage leaderboards. Released in 2017",
     "buttons": [
-      { "title": "iOS", "url": "google.com", "color": "primary" },
-      { "title": "Android", "url": "google.com", "color": "info" }
+      {
+        "title": "iOS",
+        "url": "https://apps.apple.com/us/app/digit-drop/id1206660499",
+        "color": "primary"
+      },
+      {
+        "title": "Android",
+        "url": "https://play.google.com/store/apps/details?id=com.nabhanmaswood.digitdrop&hl=en_US",
+        "color": "info"
+      }
     ],
     "width": "38%"
   },
@@ -40,40 +69,80 @@
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/TimeFlux.png?raw=true",
     "title": "Time Flux",
     "technology": "Unity2D, C#, AdMob, iOS, Android",
-    "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    "buttons": [{ "title": "Github", "url": "google.com", "color": "info" }],
+    "description": "Mobile game where you tap the screen to match the arrow with the correct time at the top.",
+    "description2": "Built with Unity2D with C#. Released in 2016",
+    "buttons": [
+      {
+        "title": "iOS",
+        "url": "https://apps.apple.com/us/app/time-flux/id1156172974",
+        "color": "primary"
+      },
+      {
+        "title": "Android",
+        "url": "https://play.google.com/store/apps/details?id=com.nabhanmaswood.TimeFlux&hl=en_US",
+        "color": "info"
+      }
+    ],
     "width": "38%"
   },
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/TwoArrows.png?raw=true",
     "title": "Two Arrows",
     "technology": "Objective-C, Cocoas-2D, AdMob, iOS",
-    "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    "buttons": [{ "title": "Github", "url": "google.com", "color": "info" }],
+    "description": "iOS game where the user would match falling arrows by tapping on each side of the screen.",
+    "description2": "Written in Objective-C using the Cocoas2d game engine, Previously released on the iOS app store in 2015.",
+    "buttons": [
+      {
+        "title": "Github",
+        "url": "https://github.com/nmaswood98/Two-Arrows",
+        "color": "info"
+      }
+    ],
     "width": "24%"
   },
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/PerimeterTheGame.png?raw=true",
     "title": "Perimeter The Game",
     "technology": "Objective-C, SpriteKit, AdMob, iOS",
-    "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    "buttons": [{ "title": "Github", "url": "google.com", "color": "info" }],
+    "description": "iOS game where the objective is to tap on the screen when the two perimeters overlap.",
+    "description2": "Released in 2015",
+    "buttons": [
+      {
+        "title": "iOS",
+        "url": "https://apps.apple.com/us/app/perimeter-the-game/id933594928",
+        "color": "info"
+      }
+    ],
     "width": "40%"
   },
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/LAVARIVER.png?raw=true",
     "title": "Lava River",
     "technology": "Objective-C, SpriteKit, AdMob, iOS",
-    "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    "buttons": [{ "title": "Github", "url": "google.com", "color": "info" }],
+    "description": "The floor is lava! Tap on the rocks to move forward in the game!",
+    "description2": "Written in Objective-C with Apple's SpriteKit game engine, Released in 2014.",
+    "buttons": [
+      {
+        "title": "iOS",
+        "url": "https://apps.apple.com/us/app/lava-river/id872833976",
+        "color": "info"
+      }
+    ],
     "width": "20%"
   },
   {
     "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/FeedTheBear.png?raw=true",
     "title": "Feed The Bear",
     "technology": "Objective-C, SpriteKit, AdMob, iOS",
-    "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    "buttons": [{ "title": "Github", "url": "google.com", "color": "info" }],
+    "description": "iOS app where the goal is to tap on the bears while the fish fall.",
+    "description2": "Written in Objective-C with Apple's SpriteKit game engine, Previously released on the iOS app store in 2014.",
+    "buttons": [
+      {
+        "title": "Github",
+        "url": "https://github.com/nmaswood98/Feed-The-Bear",
+        "color": "info"
+      }
+    ],
     "width": "40%"
   }
 ]
