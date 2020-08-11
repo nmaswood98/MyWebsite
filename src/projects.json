@@ -8,6 +8,10 @@
     "description2": "Front-End uses SwiftUI for the application, backend uses Google Firebase and Cloud Functions for user authentication, location verification, database, and data storage",
     "buttons": [
       { "title": "Github", "url": "https://google.com", "color": "info" }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3",
+      "https://animalscene.ph/wp-content/uploads/2020/03/cat.jpeg"
     ]
   },
   {
@@ -23,6 +27,9 @@
         "url": "https://github.com/StockMarketSimulator-CSC-59867-03/SMSimulator_Website",
         "color": "info"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   },
   {
@@ -43,6 +50,9 @@
         "url": "http://polydrive.io",
         "color": "primary"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   },
   {
@@ -63,6 +73,9 @@
         "url": "https://play.google.com/store/apps/details?id=com.nabhanmaswood.digitdrop&hl=en_US",
         "color": "info"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   },
   {
@@ -83,6 +96,9 @@
         "url": "https://play.google.com/store/apps/details?id=com.nabhanmaswood.TimeFlux&hl=en_US",
         "color": "info"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   },
   {
@@ -98,6 +114,9 @@
         "url": "https://github.com/nmaswood98/Two-Arrows",
         "color": "info"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   },
   {
@@ -113,6 +132,9 @@
         "url": "https://apps.apple.com/us/app/perimeter-the-game/id933594928",
         "color": "info"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   },
   {
@@ -128,6 +150,9 @@
         "url": "https://apps.apple.com/us/app/lava-river/id872833976",
         "color": "info"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   },
   {
@@ -143,6 +168,9 @@
         "url": "https://github.com/nmaswood98/Feed-The-Bear",
         "color": "info"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   },
   {
@@ -158,6 +186,9 @@
         "url": "https://docs.google.com/document/d/1MUviqyFwQEvBrgUFJOnBp6lTJAysvJqtYxpsL5IxBY4/edit?usp=sharing",
         "color": "info"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   },
   {
@@ -178,6 +209,9 @@
         "url": "https://github.com/nmaswood98/RecycleNYC-2",
         "color": "primary"
       }
+    ],
+    "images": [
+      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
     ]
   }
 ]

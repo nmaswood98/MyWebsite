@@ -76,7 +76,7 @@ export default function ProjectContent(props) {
             </h4>
           </GridItem>
 
-          <ImageCarousel />
+          <ImageCarousel images={props?.project?.images} />
           <GridItem
             xs={12}
             sm={12}

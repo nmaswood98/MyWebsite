@@ -10,7 +10,6 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "assets/img/bg.jpg";
 import image2 from "assets/img/bg2.jpg";
 import image3 from "assets/img/bg3.jpg";
 
@@ -32,15 +31,15 @@ function ImageCarousel(props) {
   return (
     <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
       <Carousel {...settings}>
-        <div>
-          <img src={image1} alt="First slide" className="slick-image" />
-        </div>
-        <div>
-          <img src={image2} alt="Second slide" className="slick-image" />
-        </div>
-        <div>
-          <img src={image3} alt="Third slide" className="slick-image" />
-        </div>
+        {props?.images?.map((imageURL) => (
+          <div>
+            <img
+              style={{ maxWidth: 640, maxHeight: 360, overflow: "hidden" }}
+              src={imageURL}
+              alt="First slide"
+            />
+          </div>
+        ))}
       </Carousel>
     </GridItem>
   );
