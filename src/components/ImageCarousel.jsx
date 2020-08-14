@@ -44,9 +44,10 @@ function ImageCarousel(props) {
           {props?.images?.map((imageURL) => (
             <div>
               <img
-                style={{ maxWidth: 640, maxHeight: 360, overflow: "hidden" }}
+                style={{ maxWidth: 640, maxHeight: 360, objectFit: "contain" }}
                 src={imageURL}
                 alt="First slide"
+                className="slick-image"
               />
             </div>
           ))}
