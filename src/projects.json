@@ -9,9 +9,10 @@
     "buttons": [
       { "title": "Github", "url": "https://google.com", "color": "info" }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3",
-      "https://animalscene.ph/wp-content/uploads/2020/03/cat.jpeg"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/Tent1.png?raw=true",
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/Tent2.png?raw=true"
     ]
   },
   {
@@ -28,8 +29,12 @@
         "color": "info"
       }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/SMS1.png?raw=true",
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/SMS2.png?raw=true",
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/SMS3.png?raw=true",
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/SMS4.png?raw=true"
     ]
   },
   {
@@ -51,8 +56,11 @@
         "color": "primary"
       }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/PD1.png?raw=true",
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/PD2.png?raw=true",
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/PD3.png?raw=true"
     ]
   },
   {
@@ -74,9 +82,8 @@
         "color": "info"
       }
     ],
-    "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
-    ]
+    "video": "https://www.youtube.com/embed/KhvY3-9PdJA",
+    "images": []
   },
   {
     "type": "personal",
@@ -97,8 +104,9 @@
         "color": "info"
       }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/TF.png?raw=true"
     ]
   },
   {
@@ -115,8 +123,9 @@
         "color": "info"
       }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/TA.png?raw=true"
     ]
   },
   {
@@ -133,8 +142,9 @@
         "color": "info"
       }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/Perimeter.png?raw=true"
     ]
   },
   {
@@ -151,8 +161,9 @@
         "color": "info"
       }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/LR.png?raw=true"
     ]
   },
   {
@@ -169,8 +180,9 @@
         "color": "info"
       }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/FeedTheBear.png?raw=true"
     ]
   },
   {
@@ -187,8 +199,9 @@
         "color": "info"
       }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/SINGLECYCLECPU.png?raw=true"
     ]
   },
   {
@@ -210,8 +223,9 @@
         "color": "primary"
       }
     ],
+    "video": "",
     "images": [
-      "https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg?itok=zmmJgd_3"
+      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/RecycleNYC.jpg?raw=true"
     ]
   }
 ]

@@ -30,17 +30,28 @@ function ImageCarousel(props) {
 
   return (
     <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
-      <Carousel {...settings}>
-        {props?.images?.map((imageURL) => (
-          <div>
-            <img
-              style={{ maxWidth: 640, maxHeight: 360, overflow: "hidden" }}
-              src={imageURL}
-              alt="First slide"
-            />
-          </div>
-        ))}
-      </Carousel>
+      {props.videoURL !== "" ? (
+        <iframe
+          src={props.videoURL}
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+          title="video"
+          style={{ minWidth: "100%", minHeight: 360 }}
+        />
+      ) : (
+        <Carousel {...settings}>
+          {props?.images?.map((imageURL) => (
+            <div>
+              <img
+                style={{ maxWidth: 640, maxHeight: 360, overflow: "hidden" }}
+                src={imageURL}
+                alt="First slide"
+              />
+            </div>
+          ))}
+        </Carousel>
+      )}
     </GridItem>
   );
 }
