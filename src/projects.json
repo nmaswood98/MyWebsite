@@ -6,7 +6,13 @@
     "technology": "Swift, JavaScript, MapKit, Firebase, Google Photos, Google Cloud Functions, iOS",
     "description": "Mobile Application where you capture and share images and drawings with people near you",
     "description2": "Front-End uses SwiftUI for the application, backend uses Google Firebase and Cloud Functions for user authentication, location verification, database, and data storage. Not yet released on the app store. Email: nmaswood98@gmail.com for read access to private github",
-    "buttons": [],
+    "buttons": [
+      {
+        "title": "Github",
+        "url": "https://github.com/nmaswood98/Tent",
+        "color": "info"
+      }
+    ],
     "video": "",
     "images": [
       "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/Tent1.png?raw=true",
