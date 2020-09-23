@@ -2,7 +2,7 @@
 
 Made using React, Material UI and Material-Kit-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website is deployed with github pages: [Website](https://nmaswood98.github.io/MyWebsite/).
 
 ![Website Image](https://i.imgur.com/lKD4clK.png)
 
