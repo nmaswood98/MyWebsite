@@ -5,7 +5,7 @@
     "title": "Tent",
     "technology": "Swift, JavaScript, MapKit, Firebase, Google Photos, Google Cloud Functions, iOS",
     "description": "Mobile Application where you capture and share images and drawings with people near you",
-    "description2": "Front-End uses SwiftUI for the application, backend uses Google Firebase and Cloud Functions for user authentication, location verification, database, and data storage. Not yet released on the app store. Email: nmaswood98@gmail.com for read access to private github",
+    "description2": "Front-End uses SwiftUI for the application, backend uses Google Firebase and Cloud Functions for user authentication, location verification, database, and data storage. Not yet released on the app store.",
     "buttons": [
       {
         "title": "Github",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "type": "school",
+    "type": "College",
     "image": "https://s3.amazonaws.com/nabhanmaswood.com/StockMarketSImulator.png",
     "title": "Stock Market Simulator",
     "technology": "React, Redux, TypeScript, Node.js, Firebase",
@@ -188,7 +188,7 @@
     "images": ["https://s3.amazonaws.com/nabhanmaswood.com/FeedTheBear.png"]
   },
   {
-    "type": "school",
+    "type": "College",
     "image": "https://s3.amazonaws.com/nabhanmaswood.com/SINGLECYCLECPU.png",
     "title": "Single Cycle CPU",
     "technology": "VHDL, ModelSim, FPGA",
@@ -205,7 +205,7 @@
     "images": ["https://s3.amazonaws.com/nabhanmaswood.com/SINGLECYCLECPU.png"]
   },
   {
-    "type": "school",
+    "type": "College",
     "image": "https://s3.amazonaws.com/nabhanmaswood.com/RecycleNYC.jpg",
     "title": "Recycle NYC",
     "technology": "JavaScript, D3.js, HTML, CSS",

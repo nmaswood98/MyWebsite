@@ -132,7 +132,7 @@ function ProjectList(props) {
         props.projects.filter((project) => project.type === "personal")
       );
     } else {
-      setImages(props.projects.filter((project) => project.type === "school"));
+      setImages(props.projects.filter((project) => project.type === "College"));
     }
   }, [projectTypeIndex]);
   let count = -1;
@@ -162,7 +162,7 @@ function ProjectList(props) {
       >
         <Tab label="All" />
         <Tab label="Personal" />
-        <Tab label="School" />
+        <Tab label="College" />
       </Tabs>
       <div className={classes.images} style={{ margin: 0 }}>
         {images.map((image) => {
