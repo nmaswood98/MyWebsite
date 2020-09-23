@@ -1,7 +1,7 @@
 [
   {
     "type": "personal",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/Tent.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/Tent.png",
     "title": "Tent",
     "technology": "Swift, JavaScript, MapKit, Firebase, Google Photos, Google Cloud Functions, iOS",
     "description": "Mobile Application where you capture and share images and drawings with people near you",
@@ -15,13 +15,13 @@
     ],
     "video": "",
     "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/Tent1.png?raw=true",
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/Tent2.png?raw=true"
+      "https://s3.amazonaws.com/nabhanmaswood.com/Tent1.png",
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/Tent2.png"
     ]
   },
   {
     "type": "school",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/StockMarketSImulator.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/StockMarketSImulator.png",
     "title": "Stock Market Simulator",
     "technology": "React, Redux, TypeScript, Node.js, Firebase",
     "description": "Website that creates sessions of a stock market environment where users can trade stocks",
@@ -35,15 +35,15 @@
     ],
     "video": "",
     "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/SMS1.png?raw=true",
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/SMS2.png?raw=true",
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/SMS3.png?raw=true",
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/SMS4.png?raw=true"
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/SMS1.png",
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/SMS2.png",
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/SMS3.png",
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/SMS4.png"
     ]
   },
   {
     "type": "personal",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/PolyDrive.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/PolyDrive.png",
     "title": "Polydrive.io",
     "technology": "JavaScript, Node.js, Pixi.js, Primus, Express",
     "description": "HTML5 multiplayer game that takes advantage of WebSockets to provide real-time gameplay between many clients ",
@@ -62,14 +62,14 @@
     ],
     "video": "",
     "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/PD1.png?raw=true",
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/PD2.png?raw=true",
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/PD3.png?raw=true"
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/PD1.png",
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/PD2.png",
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/PD3.png"
     ]
   },
   {
     "type": "personal",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/DigitDrop.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/DigitDrop.png",
     "title": "Digit Drop",
     "technology": "Unity2D, C#, GameKit, AdMob, iOS, Android",
     "description": "Mobile Game where players add numbers to match the given number at the top.",
@@ -91,7 +91,7 @@
   },
   {
     "type": "personal",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/TimeFlux.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/TimeFlux.png",
     "title": "Time Flux",
     "technology": "Unity2D, C#, AdMob, iOS, Android",
     "description": "Mobile game where you tap the screen to match the arrow with the correct time at the top.",
@@ -110,12 +110,12 @@
     ],
     "video": "",
     "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/TF.png?raw=true"
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/TF.png"
     ]
   },
   {
     "type": "personal",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/TwoArrows.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/TwoArrows.png",
     "title": "Two Arrows",
     "technology": "Objective-C, Cocoas-2D, AdMob, iOS",
     "description": "iOS game where the user would match falling arrows by tapping on each side of the screen.",
@@ -129,12 +129,12 @@
     ],
     "video": "",
     "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/TA.png?raw=true"
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/TA.png"
     ]
   },
   {
     "type": "personal",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/PerimeterTheGame.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/PerimeterTheGame.png",
     "title": "Perimeter The Game",
     "technology": "Objective-C, SpriteKit, AdMob, iOS",
     "description": "iOS game where the objective is to tap on the screen when the two perimeters overlap.",
@@ -148,12 +148,12 @@
     ],
     "video": "",
     "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/Perimeter.png?raw=true"
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/Perimeter.png"
     ]
   },
   {
     "type": "personal",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/LAVARIVER.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/LAVARIVER.png",
     "title": "Lava River",
     "technology": "Objective-C, SpriteKit, AdMob, iOS",
     "description": "The floor is lava! Tap on the rocks to move forward in the game!",
@@ -167,12 +167,12 @@
     ],
     "video": "",
     "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/projectImages/LR.png?raw=true"
+      "https://s3.amazonaws.com/nabhanmaswood.com/projectImages/LR.png"
     ]
   },
   {
     "type": "personal",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/FeedTheBear.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/FeedTheBear.png",
     "title": "Feed The Bear",
     "technology": "Objective-C, SpriteKit, AdMob, iOS",
     "description": "iOS app where the goal is to tap on the bears while the fish fall.",
@@ -185,13 +185,11 @@
       }
     ],
     "video": "",
-    "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/FeedTheBear.png?raw=true"
-    ]
+    "images": ["https://s3.amazonaws.com/nabhanmaswood.com/FeedTheBear.png"]
   },
   {
     "type": "school",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/SINGLECYCLECPU.png?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/SINGLECYCLECPU.png",
     "title": "Single Cycle CPU",
     "technology": "VHDL, ModelSim, FPGA",
     "description": "Final Project for Computer Organization class ",
@@ -204,13 +202,11 @@
       }
     ],
     "video": "",
-    "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/SINGLECYCLECPU.png?raw=true"
-    ]
+    "images": ["https://s3.amazonaws.com/nabhanmaswood.com/SINGLECYCLECPU.png"]
   },
   {
     "type": "school",
-    "image": "https://github.com/nmaswood98/MyWebsite/blob/master/assets/RecycleNYC.jpg?raw=true",
+    "image": "https://s3.amazonaws.com/nabhanmaswood.com/RecycleNYC.jpg",
     "title": "Recycle NYC",
     "technology": "JavaScript, D3.js, HTML, CSS",
     "description": "A visualization project for a Data Visulization class to see relation between NYC recycling practices and its demography.",
@@ -228,8 +224,6 @@
       }
     ],
     "video": "",
-    "images": [
-      "https://github.com/nmaswood98/MyWebsite/blob/master/assets/RecycleNYC.jpg?raw=true"
-    ]
+    "images": ["https://s3.amazonaws.com/nabhanmaswood.com/RecycleNYC.jpg"]
   }
 ]
