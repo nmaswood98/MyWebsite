@@ -4,6 +4,8 @@ Made using React, Material UI and Material-Kit-React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Website Image](https://i.imgur.com/lKD4clK.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
